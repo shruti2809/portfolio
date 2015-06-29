@@ -1,0 +1,62 @@
+#home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: $primary-color;
+  
+  header {
+    position: relative;
+    top: 0;
+    font-family: 'Poiret One', cursive;
+
+    #myname > a {
+      font-size: 2em;
+      text-decoration: none;
+      width: 100%;
+      padding-left: 40px;
+      font-weight: 600;
+      color: #FD685B;
+    }
+
+    #job > div >  a {
+      font-size: 1.5em;
+      text-decoration: none;
+      padding-left: 15px;
+      color: #FD685B
+    }
+
+    .nav {
+      font-size: 1.7em;
+      padding-top: 20px;
+
+      a {
+        padding-right: 1.5em;
+        text-decoration: none;
+        color: #19B5FE;
+      }
+    }
+  }
+
+  h1 {
+    padding-top: 40px;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 3.5em;
+    font-family: 'Poiret One', cursive;
+  }
+
+  p {
+    color: #4D4D4D;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: 'Poiret One', cursive;
+  }
+
+  .lorem {
+    font-size: 1.2em;
+    font-family: 'Poiret One', cursive;
+    color: #4D4D4D;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,22 @@
+---
+layout: page
+title: skills
+permalink: /skills/
+---
+<div id="skills">
+  {% for post in site.posts %}
+    <div class="post">
+      <div class="post-when">{{ post.date | date: "<span class='post-date'>%-d</span><br><span class='post-month'>%b</span>" }}</div>
+
+      <div class="post-details">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+
+        <div class="excerpt">{{post.excerpt}}</div>
+
+        <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
