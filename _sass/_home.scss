@@ -46,7 +46,7 @@
     font-family: 'Poiret One', cursive;
   }
 
-  p {
+  .lorem p {
     color: #4D4D4D;
     font-size: 2.5em;
     font-weight: 600;
@@ -58,5 +58,21 @@
     font-family: 'Poiret One', cursive;
     color: #4D4D4D;
     font-weight: 400;
+  }
+
+  .footer {
+    height: 5em;
+    background-color: #1234c4;
+    font-size: 1.5em;
+    font-family: 'Poiret One', cursive;
+
+    i {
+      font-size: 1em;
+    }
+
+    .profile-links {
+      display: inline;
+      font-size: 0.5em;
+    }
   }
 }
