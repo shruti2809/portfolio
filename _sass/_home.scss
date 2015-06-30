@@ -1,133 +1,59 @@
 #home {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  background-color: $primary-color;
-  
-  header {
-    position: relative;
-    top: 0;
-    font-family: 'Poiret One', cursive;
 
-
-    #myname > a {
-      font-size: 2em;
-      text-decoration: none;
-      width: 100%;
-      padding-left: 40px;
-      font-weight: 600;
-      color: $secondary-color;
-    }
-
-    #job > div >  a {
-      font-size: 1.5em;
-      text-decoration: none;
-      padding-left: 15px;
-      color: $secondary-color;
-    }
-
-    .nav {
-      font-size: 1.7em;
-      padding-top: 20px;
-
-      a {
-        padding-right: 1.5em;
-        text-decoration: none;
-        color: $tertiary-color;
-      }
-    }
-  }
   .profilepic img {
-    border-radius: 100%;
-    margin-left: 100px;
-    margin-top: 40px;
+    margin: 80px 100px;
   }
+
   h1 {
     padding-top: 40px;
     color: #4D4D4D;
     font-weight: 600;
     font-size: 3.5em;
-    font-family: 'Poiret One', cursive;
   }
+
   .about-me {
-    font-family: 'Poiret One', cursive;
     font-size: 1.9em;
     font-weight: 700;
     color: #4D4D4D;
   }
 
- .my-list {
-  border: none;
-  outline:none;
-  border-radius: 100%;
-  font-family: 'Poiret One', cursive;
-  height: 120px;
-  width: 120px;
-  margin-right: 15px;
-  margin-left: 15px;
- }
+  .my-list {
+    border: none;
+    outline:none;
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 
- button.my-list.resume {
-  background-color: $secondary-color;
-  font-size: 20px;
-  font-weight: 800;
+  button.my-list.resume {
+    background-color: $secondary-color;
+    font-size: 20px;
+    font-weight: 800;
   /* border: 5px solid $tertiary-color; */
- }
+  }
 
- button.my-list.work {
-  background-color: $tertiary-color;
-  font-size: 20px;
-  font-weight: 800;
+  button.my-list.work {
+    background-color: $tertiary-color;
+    font-size: 20px;
+    font-weight: 800;
   /* border: 5px solid $secondary-color; */
- }
+  }
 
- button.my-list.skills {
-  background-color: $secondary-color;
-  font-size: 20px;
-  font-weight: 800;
+  button.my-list.skills {
+    background-color: $secondary-color;
+    font-size: 20px;
+    font-weight: 800;
   /* border: 5px solid $tertiary-color; */
- }
+  }
 
   .lorem {
     font-size: 1.2em;
-    font-family: 'Poiret One', cursive;
     color: #4D4D4D;
     padding-top: 20px;
     padding-bottom: 114px;
     font-weight: 400;
   }
 
-  .footer {
-    padding-top: 20px;
-    width: 100%;
-    height: 5em;
-    background-color: $tertiary-color;
-    font-size: 1.5em;
-    font-family: 'Poiret One', cursive;
-
-    i {
-      font-size: 1em;
-    }
-
-    .profile-links {
-      display: inline;
-      font-size: 0.5em;
-    }
-
-    .front-icons {
-      padding-left: 100px;
-      padding-right: 0;
-    }
-
-    .footer-contact {
-      padding-left: 30px;
-      font-weight: 500;
-      line-height: 1em;
-
-      
-    }
-    .footer-contact > p {
-        font-weight: 800;
-      }
-  }
 }
